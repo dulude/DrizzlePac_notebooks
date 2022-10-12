@@ -2,5 +2,45 @@
 # Learn more at https://jupyterbook.org/customize/toc.html
 format: jb-book
 root: index
+parts:
+  - caption: Initialization
+    chapters:
+    - file: notebooks/Initialization/Initialization.ipynb
+  - caption: Aligning HST images to an absolute reference catalog
+    chapters:
+    - file: notebooks/align_to_catalogs/align_to_catalogs.ipynb
+  - caption: Aligning HST Mosaics
+    chapters:
+      - file: notebooks/align_mosaics/align_mosaics.ipynb
+  - caption: Optimizing Image Alignment for Multiple HST Visits
+    chapters:
+      - file: notebooks/align_multiple_visits/align_multiple_visits.ipynb
+  - caption: Aligning Deep Exposures of Sparse Fields
+    chapters:
+      - file: notebooks/align_sparse_fields/align_sparse_fields.ipynb
+  - caption: Drizzling WFPC2 Images to use a Single Zeropoint
+    chapters:
+      - file: notebooks/drizzle_wfpc2/drizzle_wfpc2.ipynb
+  - caption: Satellite Trail Masking Techniques
+    chapters:
+      - file: notebooks/mask_satellite/mask_satellite.ipynb
+  - caption: Optimizing the Image Sampling
+    chapters:
+      - file: notebooks/optimize_image_sampling/optimize_image_sampling.ipynb
+  - caption: Sky Matching
+    chapters:
+      - file: notebooks/sky_matching/sky_matching.ipynb
+  - caption: Using DS9 Regions to Include and Exclude Sources in HST Image Alignment with TWEAKREG
+    chapters:
+      - file: notebooks/use_ds9_regions_in_tweakreg/use_ds9_regions_in_tweakreg.ipynb
+
+  - caption: Using Updated Astrometry Solutions
+    chapters:
+      - file: notebooks/using_updated_astrometry_solutions/using_updated_astrometry_solutions.ipynb
+
 chapters:
-- file: notebooks/example_notebook/example_notebook.ipynb
+- file:
+- file:
+- file:
+- file:
+- file:
