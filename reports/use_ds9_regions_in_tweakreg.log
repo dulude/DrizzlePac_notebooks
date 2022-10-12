@@ -37,14 +37,14 @@ plt.rcParams['figure.figsize'] = (20,20)
 ------------------
 
 [0;31m---------------------------------------------------------------------------[0m
-[0;31mModuleNotFoundError[0m                       Traceback (most recent call last)
-Cell [0;32mIn [1], line 9[0m
-[1;32m      7[0m [38;5;28;01mfrom[39;00m [38;5;21;01mastropy[39;00m[38;5;21;01m.[39;00m[38;5;21;01mio[39;00m [38;5;28;01mimport[39;00m fits
-[1;32m      8[0m [38;5;28;01mfrom[39;00m [38;5;21;01mastroquery[39;00m[38;5;21;01m.[39;00m[38;5;21;01mmast[39;00m [38;5;28;01mimport[39;00m Observations
-[0;32m----> 9[0m [38;5;28;01mfrom[39;00m [38;5;21;01mdrizzlepac[39;00m [38;5;28;01mimport[39;00m tweakreg
-[1;32m     10[0m [38;5;28;01mimport[39;00m [38;5;21;01mmatplotlib[39;00m[38;5;21;01m.[39;00m[38;5;21;01mpyplot[39;00m [38;5;28;01mas[39;00m [38;5;21;01mplt[39;00m
+[0;31mImportError[0m                               Traceback (most recent call last)
+Cell [0;32mIn [1], line 13[0m
 [1;32m     11[0m [38;5;28;01mfrom[39;00m [38;5;21;01mphotutils[39;00m [38;5;28;01mimport[39;00m CircularAperture
+[1;32m     12[0m [38;5;28;01mimport[39;00m [38;5;21;01mregions[39;00m
+[0;32m---> 13[0m [38;5;28;01mfrom[39;00m [38;5;21;01mregions[39;00m [38;5;28;01mimport[39;00m read_ds9
+[1;32m     15[0m [38;5;66;03m# set plotting details for notebooks[39;00m
+[1;32m     16[0m get_ipython()[38;5;241m.[39mrun_line_magic([38;5;124m'[39m[38;5;124mmatplotlib[39m[38;5;124m'[39m, [38;5;124m'[39m[38;5;124minline[39m[38;5;124m'[39m)
 
-[0;31mModuleNotFoundError[0m: No module named 'drizzlepac'
-ModuleNotFoundError: No module named 'drizzlepac'
+[0;31mImportError[0m: cannot import name 'read_ds9' from 'regions' (/usr/share/miniconda/lib/python3.9/site-packages/regions/__init__.py)
+ImportError: cannot import name 'read_ds9' from 'regions' (/usr/share/miniconda/lib/python3.9/site-packages/regions/__init__.py)
 
